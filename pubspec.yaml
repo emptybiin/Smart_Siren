@@ -14,13 +14,18 @@ dependencies:
   google_maps_flutter: ^2.3.0
   location: ^5.0.3
   flutter_polyline_points: ^1.0.0
+  google_maps_webservice: ^0.0.19
+  flutter_google_places: ^0.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 
-flutter: 
+flutter:
+  assets:
+    - packages/flutter_google_places/assets/google_black.png
+    - packages/flutter_google_places/assets/google_white.png
   uses-material-design: true
   
   

@@ -10,11 +10,14 @@ PODS:
     - GoogleMaps/Base
   - location (0.0.1):
     - Flutter
+  - package_info_plus (0.4.5):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
   - location (from `.symlinks/plugins/location/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
 
 SPEC REPOS:
   trunk:
@@ -27,12 +30,15 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
   location:
     :path: ".symlinks/plugins/location/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   google_maps_flutter_ios: abdac20d6ce8931f6ebc5f46616df241bfaa2cfd
   GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
   location: d5cf8598915965547c3f36761ae9cc4f4e87d22e
+  package_info_plus: 115f4ad11e0698c8c1c5d8a689390df880f47e85
 
 PODFILE CHECKSUM: 1ea9f49c4f5a0cb4ea986a31044ceb0f7668e46a
 
